@@ -18,7 +18,7 @@ Jaya Jaya Maju adalah sebuah perusahaan berskala besar yang telah berdiri sejak 
 
 ## Persiapan
 
-Sumber data: [employee_data.csv](<https://github.com/dicodingacademy/a590-Belajar-Penerapan-Data-Science/tree/a590_proyek_pertama/a590_proyek_pertama>)
+Sumber data: [employee_data.csv](<https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee>)
 
 Setup environment:
 Proyek ini dikembangkan menggunakan Python versi 3.13. Berikut adalah panduan langkah demi langkah untuk menyiapkan environment dan menjalankan proyek secara lokal:
