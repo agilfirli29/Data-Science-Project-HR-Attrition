@@ -44,7 +44,7 @@ Pastikan Anda masih berada di direktori yang sama dan terdapat folder model/ di 
 
 ## Business Dashboard
 
-Telah dibuat sebuah Business Dashboard interaktif untuk membantu HRD memantau kondisi karyawan secara real-time. Di dalamnya terdapat visualisasi berupa Total Karyawan (1.058 orang), Persentase Attrition yang mencapai 16,92%, serta analisis mendalam mengenai dampak beban lembur (OverTime), tingkat Work-Life Balance, dan gaji bulanan (Monthly Income) terhadap keputusan resign karyawan. Pengkategorian angka pada visualisasi (seperti WorkLifeBalance) juga telah disesuaikan menjadi label deskriptif (misal: "1 - Buruk", "4 - Sangat Baik") agar informasi lebih mudah dipahami.
+Telah dibuat sebuah Business Dashboard interaktif untuk membantu HRD memantau kondisi karyawan secara *real-time*. Dashboard ini mengambil sumber data dari file `cleaned_employee_data.csv`. Di dalamnya terdapat visualisasi berupa Total Karyawan (1.058 karyawan), Persentase Attrition yang mencapai **16,92%**, serta analisis mendalam mengenai dampak beban lembur (*OverTime*), tingkat *Work-Life Balance*, dan gaji bulanan (*Monthly Income*) terhadap keputusan resign karyawan di berbagai jabatan (*Job Role*).
 
 Link Dashboard Looker Studio: https://lookerstudio.google.com/reporting/4578c193-2ee8-4190-9cfb-bf26dace9d7c
 
@@ -52,7 +52,7 @@ Link Dashboard Looker Studio: https://lookerstudio.google.com/reporting/4578c193
 
 Berdasarkan proses analisis data dan pemodelan yang telah dilakukan, dapat ditarik dua kesimpulan utama:
 
-1. Kesimpulan Analisis Data Eksploratif (EDA): Berdasarkan hasil eksplorasi data dan visualisasi pada dashboard, ditemukan bahwa attrition rate perusahaan berada di angka 16,92%. Karakteristik karyawan yang paling banyak memutuskan resign adalah mereka yang memiliki beban lembur (OverTime) tinggi, menerima gaji bulanan (Monthly Income) yang kurang kompetitif dibandingkan rekan kerjanya, serta kelompok karyawan yang memiliki tingkat keseimbangan hidup (Work-Life Balance) di kategori 1 (Buruk).
+1. Kesimpulan Analisis Data Eksploratif (EDA): Berdasarkan hasil eksplorasi data dan visualisasi pada business dashboard, ditemukan bahwa attrition rate perusahaan berada di angka 16,92%. Karakteristik karyawan yang paling banyak memutuskan resign adalah mereka yang memiliki beban lembur (OverTime) tinggi, menerima gaji bulanan (Monthly Income) yang kurang kompetitif dibandingkan rekan kerjanya, serta kelompok karyawan yang memiliki tingkat keseimbangan hidup (Work-Life Balance) di kategori 1 (Buruk).
 
 2. Kesimpulan Model Machine Learning: Model prediksi telah berhasil dibangun dengan performa yang baik menggunakan algoritma Klasifikasi dan penanganan data tidak seimbang (SMOTE). Berdasarkan analisis Feature Importance untuk mengevaluasi kinerja model, fitur yang paling berkontribusi dan berpengaruh besar terhadap keputusan model dalam mendeteksi attrition adalah fitur OverTime (Lembur) dan MonthlyIncome (Gaji Bulanan).
 
